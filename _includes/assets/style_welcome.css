@@ -1,0 +1,115 @@
+/*** Z-INDEXES ***/
+.d-background { position: relative; z-index: 10; }
+.header,
+.reserve { position: relative; z-index: 20; }
+/*** END Z-INDEXES ***/
+
+/*** COLORS ***/
+.d-background:before { background-color: rgba(114, 174, 74, .9); }
+.header label.is-cta { background-color: rgba(4, 234, 96); }
+
+.header label.is-button { background-color: rgba(255, 255, 255, .1); }
+.header * { color: #eee; }
+
+.d-background:before { background-color: rgba(4, 4, 4, .96); }
+.header label.is-cta { color: black; }
+/*** END COLORS ***/
+
+/*** FONTS ***/
+@font-face { font-family: "OCR A"; src: url("/assets/fonts/OCRAEXT.ttf"); }
+
+* { font-family: "OCR A"; }
+
+{ font-family: "Impact"; word-spacing: .15em; }
+{ font-family: "Bauhaus"; line-height: 1.15em; word-spacing: initial !important; }
+
+.header h1 { font-weight: bold; }
+/*** END FONTS ***/
+
+/*** MEDIA ***/
+* { background-size: cover; background-position: center; }
+
+.d-background { background-image: url("/assets/images/background-1.png"); }
+/* .d-background { background-image: url("/assets/images/background-2.png"); background-position: center -4em; } */
+/*** END MEDIA ***/
+
+/*** COMPONENTS ***/
+	/*** COMMONS ***/
+
+	/*** .header ***/
+	.header {
+		padding: .5em;
+	}
+	.header hgroup img {
+		position: relative;
+		width: auto;
+	}
+	
+	.header label {
+		padding: .5em;
+		margin-left: 1em;
+	}
+/*** END COMPONENTS ***/
+
+/*** MEDIA-QUERIES ***/
+@media all and (max-width: 50em) {
+	/*** FONTS ***/
+	html { font-size: 14px; }
+	
+}
+@media all and (min-width: 50em) {
+	/*** FONTS ***/
+	html { font-size: 18px; }
+	.header h1 { font-size: 1.8em; }
+
+	/*** COMPONENTS: .header ***/
+	.header { display: flex !important; }
+	
+	.header hgroup img { height: 1.8em; top: .25em; left: .25em; }
+	
+	/*** DECORATION: .d-background ***/
+	.d-background { height: 70vh; }
+}
+
+@media all and (orientation: landscape) {}
+@media all and (orientation: portrait) {}
+/*** END MEDIA-QUERIES ***/
+
+/*** DECORATION ***/
+	/*** .d-background ***/
+	.d-background {
+		position: absolute; top: 0; left: 0;
+		width: 100%;
+	}
+	.d-background:before {
+		content: ""; position: absolute; top: 0; left: 0;
+		width: 100%; height: 100%;
+	}
+/*** END DECORATION ***/
+
+/*** TOOLS ***/
+	/*** .CSScentered ***/
+	.CSScentered {
+		display: flex;
+		align-items: center; justify-content: center;
+	}
+	
+	/*** .CSSmidwrap ***/
+	.CSSmidwrap {
+		max-width: 70em;
+		display: block;
+		margin: auto;
+	}
+	
+	/*** .CSSspacer ***/
+	.CSSspacer { flex: 1; }
+/*** END TOOLS ***/
+
+/*** SANDBOX ***/
+	/*** .reserve ***/
+	.reserve { display: flex !important; }
+	.reserve { align-items: flex-end; }
+	
+	.reserve { margin-top: 9em; }
+	.reserve div { width: 35%; }
+/*** END SANDBOX ***/

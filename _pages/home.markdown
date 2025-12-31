@@ -1,0 +1,5 @@
+---
+layout: welcome
+permalink: /
+---
+AAA

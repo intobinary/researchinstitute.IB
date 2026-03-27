@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Face Verification Demo</title>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+
+<style>
+body{
+  font-family: Arial;
+  background:#0f172a;
+  color:white;
+  text-align:center;
+  padding:40px;
+}
+
+input{
+  width:320px;
+  padding:10px;
+  border-radius:8px;
+  border:none;
+  margin-bottom:20px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+}
+
+#videoWrapper{
+  position:relative;
+  display:inline-block;
+}
+
+video{
+  border-radius:12px;
+}
+
+#circle{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:220px;
+  height:220px;
+  border:4px dashed #22c55e;
+  border-radius:50%;
+  pointer-events:none;
+}
+
+img{
+  width:140px;
+  border-radius:50%;
+  margin:10px;
+}
+
+.result{
+  font-size:18px;
+  margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Face Verification</h2>
+
+<p>Paste LinkedIn profile URL</p>
+
+<input id="linkedinUrl" placeholder="https://linkedin.com/in/username">
+<br>
+
+<button onclick="loadProfile()">Load Profile Photo</button>
+
+<br><br>
+
+<div>
+<h4>Profile Photo</h4>
+<img id="profileImg">
+</div>
+
+<br>
+
+<div id="videoWrapper">
+<video id="video" width="320" height="240" autoplay muted></video>
+<div id="circle"></div>
+</div>
+
+<br><br>
+
+<button onclick="verifyFace()">Verify Face</button>
+
+<div class="result" id="result"></div>
+
+<script>
+
+async function setupCamera(){
+const video = document.getElementById("video");
+const stream = await navigator.mediaDevices.getUserMedia({ video:true });
+video.srcObject = stream;
+}
+
+setupCamera();
+
+async function loadModels(){
+await faceapi.nets.ssdMobilenetv1.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/');
+await faceapi.nets.faceRecognitionNet.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/');
+}
+
+loadModels();
+
+async function loadProfile(){
+
+const url = document.getElementById("linkedinUrl").value;
+
+alert("Demo limitation: LinkedIn blocks direct image extraction. Using placeholder.");
+
+document.getElementById("profileImg").src =
+"https://randomuser.me/api/portraits/women/44.jpg";
+
+}
+
+async function getDescriptor(img){
+
+const detection = await faceapi
+.detectSingleFace(img)
+.withFaceLandmarks()
+.withFaceDescriptor();
+
+return detection.descriptor;
+
+}
+
+async function verifyFace(){
+
+const profileImg = document.getElementById("profileImg");
+
+const video = document.getElementById("video");
+
+const profileDesc = await getDescriptor(profileImg);
+
+const webcamDesc = await getDescriptor(video);
+
+const distance = faceapi.euclideanDistance(profileDesc, webcamDesc);
+
+const threshold = 0.55;
+
+if(distance < threshold){
+
+document.getElementById("result").innerHTML =
+"✅ Face Match (" + distance.toFixed(2) + ")";
+
+}else{
+
+document.getElementById("result").innerHTML =
+"❌ Not the same person (" + distance.toFixed(2) + ")";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>

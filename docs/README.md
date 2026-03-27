@@ -1,5 +1,7 @@
 # IBRI Handbook
 
+## 1. Introduction
+
 We are pleased to introduce the Into Binary Research Institute (IBRI) — an evolution of Into Binary from a coding school into a commercially-oriented digital research laboratory. The mandate is to produce rigorous, applied, and economically viable research in software systems, algorithmic modelling, digital infrastructure, and computational methods that enable scalable innovation across sectors.
 
 > "In 2026, we're dvancing computational research, digital systems, and knowledge engineering for measurable societal impact." -- Madam Ella
@@ -16,13 +18,11 @@ Thank you for opening our IBRI handbook. Our work is guided by the principle tha
 -->
 <!-- markdownlint-enable MD004 -->
 
-## 1. FUNDAMENTALS
-
-### 1.1. Values
+## 2. Values
 Our Values at IBRI have been operationalised across the entire institute.
 
 <details>
-	<summary>1.1.a Care</summary>
+	<summary>1.a Care</summary>
 	
 We really want IBRI teams to care about every action they take at work and in their communication and decision-making. That means assuming good intent in all situations, helping out others, and avoiding the temptation to fall into a culture of blame. Care should be taken in how we work with customers, how we show empathy to challenges they are facing and how our product is built and functions. Demonstrating care goes hand in hand with ownership which takes on a sense of personal responsibility, accountability and commitment to the success of Into Binary Research Institute.
 
@@ -41,7 +41,7 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 </details>
 
 <details>
-	<summary>1.1.b Innovation</summary>
+	<summary>1.b Innovation</summary>
 
 IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.
 
@@ -53,7 +53,7 @@ All processes should be documented and available for everyone at IBRI, or only t
 </details>
 
 <details>
-	<summary>1.1.c Intensity</summary>
+	<summary>1.c Intensity</summary>
 
 With intensity as one of our values, we are setting a high standard, a commitment to determinedly pursue our goals, persevere and demonstrate resilience in our drive to achieve our goals. Intensity at IBRI can be thought of as a level of focus or energy applied to tasks or to complete a goal. It is about finding efficient and sustainable ways to get work done and doing it with excellence in mind while consistently striving to improve at scale.
 
@@ -68,7 +68,7 @@ We understand that sustained intensity requires periodic recharging and we suppo
 
 
 <details>
-	<summary>1.1.d Excellence</summary>
+	<summary>1.d Excellence</summary>
 
 Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the company and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!
 
@@ -80,16 +80,9 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 		- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
 </details>
 
-## 2. People
-## 3. Marketing
-## 4. Engineering and Security
-## 5. Product
-## 6. Design
-## 7. Legal and Compliance
-## 8. IBRI for Activism
-## 9. Recruiting
+## 3. Collaboration & Community Guidelines
 
-## About the Founder
+## 4. Acknowledgements
 
 Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.
 

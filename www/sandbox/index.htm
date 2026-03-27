@@ -1,167 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Face Verification Demo</title>
-
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+<title>Identity Verification</title>
 
 <style>
+
 body{
-  font-family: Arial;
-  background:#0f172a;
-  color:white;
-  text-align:center;
-  padding:40px;
+font-family: Arial;
+background:#0f172a;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+background:#020617;
+padding:30px;
+border-radius:16px;
+width:350px;
+text-align:center;
 }
 
 input{
-  width:320px;
-  padding:10px;
-  border-radius:8px;
-  border:none;
-  margin-bottom:20px;
+width:100%;
+margin:10px 0;
+padding:10px;
+border-radius:8px;
+border:none;
 }
 
 button{
-  padding:10px 20px;
-  border:none;
-  border-radius:8px;
-  background:#2563eb;
-  color:white;
-  cursor:pointer;
-}
-
-#videoWrapper{
-  position:relative;
-  display:inline-block;
+margin-top:15px;
+padding:12px;
+width:100%;
+border:none;
+border-radius:10px;
+background:#2563eb;
+color:white;
+font-size:16px;
+cursor:pointer;
 }
 
 video{
-  border-radius:12px;
+width:100%;
+border-radius:12px;
 }
 
-#circle{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:220px;
-  height:220px;
-  border:4px dashed #22c55e;
-  border-radius:50%;
-  pointer-events:none;
+.circle{
+position:absolute;
+width:180px;
+height:180px;
+border:3px dashed #22c55e;
+border-radius:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+pointer-events:none;
 }
 
-img{
-  width:140px;
-  border-radius:50%;
-  margin:10px;
+.camera{
+position:relative;
 }
 
-.result{
-  font-size:18px;
-  margin-top:20px;
-}
 </style>
+
 </head>
 
 <body>
 
-<h2>Face Verification</h2>
+<div class="card">
 
-<p>Paste LinkedIn profile URL</p>
+<h3>Identity Verification</h3>
 
-<input id="linkedinUrl" placeholder="https://linkedin.com/in/username">
-<br>
+<form action="https://formspree.io/f/xvolnyko" method="POST" enctype="multipart/form-data">
 
-<button onclick="loadProfile()">Load Profile Photo</button>
+<input
+type="url"
+name="linkedin"
+placeholder="LinkedIn profile URL"
+required
+>
 
-<br><br>
+<div class="camera">
 
-<div>
-<h4>Profile Photo</h4>
-<img id="profileImg">
+<video id="video" autoplay playsinline></video>
+
+<div class="circle"></div>
+
 </div>
 
-<br>
+<button type="button" onclick="takePhoto()">Take Photo</button>
 
-<div id="videoWrapper">
-<video id="video" width="320" height="240" autoplay muted></video>
-<div id="circle"></div>
+<input
+type="file"
+name="selfie"
+id="photoInput"
+accept="image/*"
+required
+>
+
+<button type="submit">
+Submit Verification
+</button>
+
+</form>
+
 </div>
-
-<br><br>
-
-<button onclick="verifyFace()">Verify Face</button>
-
-<div class="result" id="result"></div>
 
 <script>
 
-async function setupCamera(){
-const video = document.getElementById("video");
-const stream = await navigator.mediaDevices.getUserMedia({ video:true });
-video.srcObject = stream;
-}
+const video = document.getElementById("video")
 
-setupCamera();
+navigator.mediaDevices.getUserMedia({video:true})
+.then(stream=>{
+video.srcObject = stream
+})
 
-async function loadModels(){
-await faceapi.nets.ssdMobilenetv1.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/');
-await faceapi.nets.faceRecognitionNet.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/');
-}
+function takePhoto(){
 
-loadModels();
+const canvas = document.createElement("canvas")
 
-async function loadProfile(){
+canvas.width = video.videoWidth
+canvas.height = video.videoHeight
 
-const url = document.getElementById("linkedinUrl").value;
+const ctx = canvas.getContext("2d")
 
-alert("Demo limitation: LinkedIn blocks direct image extraction. Using placeholder.");
+ctx.drawImage(video,0,0)
 
-document.getElementById("profileImg").src =
-"https://randomuser.me/api/portraits/women/44.jpg";
+canvas.toBlob(blob=>{
 
-}
+const file = new File([blob],"selfie.jpg",{type:"image/jpeg"})
 
-async function getDescriptor(img){
+const container = new DataTransfer()
 
-const detection = await faceapi
-.detectSingleFace(img)
-.withFaceLandmarks()
-.withFaceDescriptor();
+container.items.add(file)
 
-return detection.descriptor;
+document.getElementById("photoInput").files =
+container.files
 
-}
+alert("Photo captured")
 
-async function verifyFace(){
-
-const profileImg = document.getElementById("profileImg");
-
-const video = document.getElementById("video");
-
-const profileDesc = await getDescriptor(profileImg);
-
-const webcamDesc = await getDescriptor(video);
-
-const distance = faceapi.euclideanDistance(profileDesc, webcamDesc);
-
-const threshold = 0.55;
-
-if(distance < threshold){
-
-document.getElementById("result").innerHTML =
-"✅ Face Match (" + distance.toFixed(2) + ")";
-
-}else{
-
-document.getElementById("result").innerHTML =
-"❌ Not the same person (" + distance.toFixed(2) + ")";
-
-}
+})
 
 }
 

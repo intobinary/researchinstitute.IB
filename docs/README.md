@@ -63,14 +63,14 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 		- Assuming you are always correct and are the only one who has the best ideas. That may be true in some scenarios but we thrive off of open and continuous feedback, inclusivity of terrible ideas to get to the best idea and being open to new perspectives
 		- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
 
-## People
-## Marketing
-## Engineering and Security
-## Product
-## Design
-## Legal and Compliance
-## Remote for Ukraine
-## Recruiting
+### People
+### Marketing
+### Engineering and Security
+### Product
+### Design
+### Legal and Compliance
+### Remote for Ukraine
+### Recruiting
 
 ## About the Founder
 

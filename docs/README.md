@@ -76,14 +76,14 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 		- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
 </details>
 
-### People
-### Marketing
-### Engineering and Security
-### Product
-### Design
-### Legal and Compliance
-### IBRI for Activism
-### Recruiting
+## 2. People
+## 3. Marketing
+## 4. Engineering and Security
+## 5. Product
+## 6. Design
+## 7. Legal and Compliance
+## 8. IBRI for Activism
+## 9. Recruiting
 
 ## About the Founder
 

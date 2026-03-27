@@ -34,6 +34,44 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 		- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
 		- Not delivering feedback with timeliness, intentionality and emotional intelligence.
 
+#### I.I.b. Innovation
+
+IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with this evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.  All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other Remoters to do so.
+
+	Anti Behavior of INNOVATION:
+		- Not communicating or cascading communications to the organisation so the organisation is not aware of changes
+		- Changing company, business or organisational goals with no update or a complete pivot in company strategy with no rationale or insights shared
+
+#### I.I.c Intensity
+With intensity as one of our values, we are setting a high standard, a commitment to determinedly pursue our goals, persevere and demonstrate resilience in our drive to achieve our goals. Intensity at IBRI can be thought of as a level of focus or energy applied to tasks or to complete a goal. It is about finding efficient and sustainable ways to get work done and doing it with excellence in mind while consistently striving to improve at scale.
+
+For our company to succeed, we will not be complacent, we will do all we can to build our customer base and continue to grow both our customers and our products exponentially.
+
+We understand that sustained intensity requires periodic recharging and we support that. Taking care of our well-being and maintaining a healthy work-life balance integration is one outcome of building sustainable efficient workflows.
+
+	Anti Behavior of INTENSITY:
+		- Apathy or complacency
+		- Utilising the practise of working with intensity as an excuse for uncaring behaviour towards Remoters, customers or employees
+
+#### I.I.d Excellence
+Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the company and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!
+
+Each teammate is expected to embody a commercial/business awareness and apply a critical/holistic mindset to situations, rather than just focusing on your area of expertise or role.
+
+	Anti Behavior of EXCELLENCE:
+		- Settling for "good enough", consistently apply a growth mindset and iteration in order to achieve our goals. 
+		- Assuming you are always correct and are the only one who has the best ideas. That may be true in some scenarios but we thrive off of open and continuous feedback, inclusivity of terrible ideas to get to the best idea and being open to new perspectives
+		- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
+
+## People
+## Marketing
+## Engineering and Security
+## Product
+## Design
+## Legal and Compliance
+## Remote for Ukraine
+## Recruiting
+
 ## About the Founder
 
 Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.

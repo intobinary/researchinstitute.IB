@@ -85,7 +85,7 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 ## 4. Acknowledgements
 
 #### 4.a About the Founder:
-Madam Ella is a Dev Researcher with years of experience working on everything from web development to robotics research. Across African and abroad, she's mentored students in robotics fundamentals, programming, sensor technology, and problem-solving, while also helping schools and organizations design stronger STEM programs.
+Madam Ella is a Dev Researcher with years of experience working on everything from web development to robotics research. Across Africa and abroad, she's mentored students in robotics fundamentals, programming, sensor technology, and problem-solving, while also helping schools and organizations design stronger STEM programs.
 You can reach her via:
 * Email: [madam.ella@intobinary.org](mailto:madam.ella@intobinary.org)
 * LinkedIn: [https://www.linkedin.com/in/MadamEllaMalala](https://www.linkedin.com/in/MadamEllaMalala)

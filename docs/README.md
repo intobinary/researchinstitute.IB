@@ -17,6 +17,7 @@ The concise employee handbook of the new Into Binary Research Institute.
 ### I.I. Values
 Our Values at IBRI have been operationalised across the entire company.
 
+<details><summary>Part 1 Prelude</summary>
 #### I.I.a. Care
 
 We really want IBRI teams to care about every action they take at work and in their communication and decision-making. That means assuming good intent in all situations, helping out others, and avoiding the temptation to fall into a culture of blame. Care should be taken in how we work with customers, how we show empathy to challenges they are facing and how our product is built and functions. Demonstrating care goes hand in hand with ownership which takes on a sense of personal responsibility, accountability and commitment to the success of Into Binary Research Institute.
@@ -33,6 +34,7 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 		- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
 		- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
 		- Not delivering feedback with timeliness, intentionality and emotional intelligence.
+</details>
 
 #### I.I.b. Innovation
 

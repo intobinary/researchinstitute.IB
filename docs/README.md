@@ -5,7 +5,7 @@ The concise employee handbook of the new Into Binary Research Institute.
 <!-- markdownlint-enable MD004 -->
 ## Table of Contents
 - [FUNDAMENTALS](#the-concise-typescript-book)
-      - [Values](#what-is-typescript)
+  - [Values](#translations)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
 <!-- markdownlint-enable MD004 -->
@@ -19,6 +19,5 @@ Welcome to IBRI.
 Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.
 
 You can reach her:
-* LinkedIn: [https://www.linkedin.com/in/simone-poggiali](https://www.linkedin.com/in/simone-poggiali)
-* GitHub: [https://github.com/gibbok](https://github.com/gibbok)
 * Email: [madam.ella@intobinary.org](mailto:madam.ella@intobinary.org)
+* LinkedIn: [https://www.linkedin.com/in/MadamEllaMalala](https://www.linkedin.com/in/MadamEllaMalala)

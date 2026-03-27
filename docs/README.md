@@ -1,10 +1,10 @@
 # IBRI Handbook
 
-We are pleased to introduce the Into Binary Research Institute (IBRI) — an evolution of Into Binary from a coding school into a commercially-oriented digital research laboratory. The mandate is to produce rigorous, applied, and economically viable research in software systems, algorithmic modeling, digital infrastructure, and computational methods that enable scalable innovation across sectors.
+We are pleased to introduce the Into Binary Research Institute (IBRI) — an evolution of Into Binary from a coding school into a commercially-oriented digital research laboratory. The mandate is to produce rigorous, applied, and economically viable research in software systems, algorithmic modelling, digital infrastructure, and computational methods that enable scalable innovation across sectors.
 
 > "In 2026, we're dvancing computational research, digital systems, and knowledge engineering for measurable societal impact." -- Madam Ella
 
-Thank you for opening our employee handbook. Our work is guided by the principle that knowledge creation must translate into tangible value: intellectual property, deployable technologies, and sustainable revenue streams in the form of programs, courses and other tech initiatives.
+Thank you for opening our IBRI handbook. Our work is guided by the principle that knowledge creation must translate into tangible value: intellectual property, deployable technologies, and sustainable revenue streams in the form of programs, courses or other tech initiatives.
 
 <!-- markdownlint-enable MD004 -->
 <!--

@@ -10,9 +10,10 @@ The concise employee handbook of the new Into Binary Research Institute.
   - [Introduction](#introduction)
 <!-- markdownlint-enable MD004 -->
 
-## Introduction
-
-Welcome to IBRI.
+##  FUNDAMENTALS
+### Values
+Our Values at Remote have been operationalised across the entire company.
+#### Care
 
 ## About the Founder
 

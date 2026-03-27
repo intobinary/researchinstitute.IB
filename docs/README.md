@@ -14,10 +14,10 @@ The concise employee handbook of the new Into Binary Research Institute.
 
 ##  FUNDAMENTALS
 
-	### Values
-	Our Values at Remote have been operationalised across the entire company.
+### Values
+Our Values at Remote have been operationalised across the entire company.
 
-		#### Care
+#### Care
 
 		We really want IBRI teams to care about every action they take at work and in their communication and decision-making. That means assuming good intent in all situations, helping out others, and avoiding the temptation to fall into a culture of blame. Care should be taken in how we work with customers, how we show empathy to challenges they are facing and how our product is built and functions. Demonstrating care goes hand in hand with ownership which takes on a sense of personal responsibility, accountability and commitment to the success of Into Binary Research Institute.
 

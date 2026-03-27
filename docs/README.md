@@ -84,6 +84,7 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 
 ## 4. Acknowledgements
 
+#### About the Founder
 Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.
 
 You can reach her:

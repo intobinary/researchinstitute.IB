@@ -18,7 +18,7 @@ Thank you for opening our IBRI handbook. Our work is guided by the principle tha
 -->
 <!-- markdownlint-enable MD004 -->
 
-## 2. Values
+## 2. Team Values
 Our Values at IBRI have been operationalised across the entire institute.
 
 <details>
@@ -80,11 +80,11 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 		- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
 </details>
 
-## 3. Collaboration & Community Guidelines
+## 3. Community Guidelines
 
 ## 4. Acknowledgements
 
-#### About the Founder
+#### 4.a About the Founder:
 Madam Ella is the founder and Dev Researcher behind the new Into Binary Research Institute.
 
 You can reach her:

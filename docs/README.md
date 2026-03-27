@@ -36,7 +36,9 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 
 #### I.I.b. Innovation
 
-IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with this evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.  All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other Remoters to do so.
+IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.
+
+All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other Remoters to do so.
 
 	Anti Behavior of INNOVATION:
 		- Not communicating or cascading communications to the organisation so the organisation is not aware of changes
@@ -51,7 +53,7 @@ We understand that sustained intensity requires periodic recharging and we suppo
 
 	Anti Behavior of INTENSITY:
 		- Apathy or complacency
-		- Utilising the practise of working with intensity as an excuse for uncaring behaviour towards Remoters, customers or employees
+		- Utilising the practise of working with intensity as an excuse for uncaring behaviour towards IBRI teams, customers or employees
 
 #### I.I.d Excellence
 Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the company and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!
@@ -69,7 +71,7 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 ### Product
 ### Design
 ### Legal and Compliance
-### Remote for Ukraine
+### IBRI for Activism
 ### Recruiting
 
 ## About the Founder

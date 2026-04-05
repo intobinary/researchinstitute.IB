@@ -67,7 +67,6 @@ We understand that sustained intensity requires periodic recharging and we suppo
 </details>
 
 
-{: .className}
 <details>
 	<summary>2.d Excellence</summary>
 

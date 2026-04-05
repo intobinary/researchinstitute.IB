@@ -1,3 +1,6 @@
+---
+layout: docs
+---
 # IBRI Handbook
 
 ## 1. Introduction
@@ -110,5 +113,5 @@ You can reach her via:
 </details>
 
 <details>
-	<summary>Jonathan Izuchukwu </summary>
+	<summary>Jonathan Izuchukwu</summary>
 </details>

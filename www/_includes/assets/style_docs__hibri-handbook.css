@@ -1,0 +1,58 @@
+/*** COLORS ***/
+html { background-color: #eee; }
+/*** END COLORS ***/
+
+/*** FONTS ***/
+@font-face { font-family: "OCR A"; src: url("/assets/fonts/OCRAEXT.ttf"); }
+
+* { font-family: "OCR A"; }
+
+{ font-family: "Impact"; word-spacing: .15em; }
+{ font-family: "Bauhaus"; line-height: 1.15em; word-spacing: initial !important; }
+/*** END FONTS ***/
+
+/*** MEDIA ***/
+* { background-size: cover; background-position: center; }
+/*** END MEDIA ***/
+
+/*** COMPONENTS ***/
+	/*** COMMONS ***/
+	main {
+		padding: 1.8em; padding-right: 0;
+	}
+		details,
+		p { padding-right: 3em; }
+/*** END COMPONENTS ***/
+
+/*** MEDIA-QUERIES ***/
+@media all and (max-width: 50em) {
+	/*** FONTS ***/
+	html { font-size: 14px; }
+	
+}
+@media all and (min-width: 50em) {
+	/*** FONTS ***/
+	html { font-size: 18px; }
+}
+
+@media all and (orientation: landscape) {}
+@media all and (orientation: portrait) {}
+/*** END MEDIA-QUERIES ***/
+
+/*** TOOLS ***/
+	/*** .CSScentered ***/
+	.CSScentered {
+		display: flex;
+		align-items: center; justify-content: center;
+	}
+	
+	/*** .CSSmidwrap ***/
+	.CSSmidwrap {
+		max-width: 70em;
+		display: block;
+		margin: auto;
+	}
+	
+	/*** .CSSspacer ***/
+	.CSSspacer { flex: 1; }
+/*** END TOOLS ***/

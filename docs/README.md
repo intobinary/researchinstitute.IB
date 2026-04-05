@@ -30,7 +30,7 @@ Everyone is expected to take ownership of work outcomes; that includes caring fo
 		
 Also if you notice an area of improvement or opportunity, care enough to try to implement the upgraded alternative -- share it with others and go one step further, when possible, in suggesting how to approach the work. We want to build a company where everyone wants to be involved, to make things better, to care and support each other. When we genuinely demonstrate that we care for others and the work throughout our day-to-day and create that nurturing environment, everyone will thrive.
 	
-<pre>
+<code>
 	Anti Behavior of CARE:
 	- Not assuming good intention in something a IBRI team mate does
 	- Public ridicule
@@ -39,7 +39,7 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 	- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
 	- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
 	- Not delivering feedback with timeliness, intentionality and emotional intelligence.
-</pre>
+</code>
 </details>
 
 <details>

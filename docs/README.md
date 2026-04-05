@@ -22,14 +22,15 @@ Thank you for opening our IBRI handbook. Our work is guided by the principle tha
 Our Values at IBRI have been operationalised across the entire institute.
 
 <details>
-	<summary>2.a Care</summary>
+	<summary>Care</summary>
 	
 We really want IBRI teams to care about every action they take at work and in their communication and decision-making. That means assuming good intent in all situations, helping out others, and avoiding the temptation to fall into a culture of blame. Care should be taken in how we work with customers, how we show empathy to challenges they are facing and how our product is built and functions. Demonstrating care goes hand in hand with ownership which takes on a sense of personal responsibility, accountability and commitment to the success of Into Binary Research Institute.
 
 Everyone is expected to take ownership of work outcomes; that includes caring for and owning outcomes for our customers, new product features, internal projects and our goals. We trust you to do what is in the best interest of the company. And with that we don’t need to micro-manage or have numerous calls or messages to ask for updates on deliverables; every IBRI team member is expected to fully own their work and to reach out if they need support, guidance or identify a blocker.
 		
 Also if you notice an area of improvement or opportunity, care enough to try to implement the upgraded alternative -- share it with others and go one step further, when possible, in suggesting how to approach the work. We want to build a company where everyone wants to be involved, to make things better, to care and support each other. When we genuinely demonstrate that we care for others and the work throughout our day-to-day and create that nurturing environment, everyone will thrive.
-		
+	
+<pre>
 	Anti Behavior of CARE:
 		- Not assuming good intention in something a IBRI team mate does
 		- Public ridicule
@@ -38,10 +39,11 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 		- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
 		- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
 		- Not delivering feedback with timeliness, intentionality and emotional intelligence.
+</pre>
 </details>
 
 <details>
-	<summary>2.b Innovation</summary>
+	<summary>Innovation</summary>
 
 IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.
 
@@ -53,7 +55,7 @@ All processes should be documented and available for everyone at IBRI, or only t
 </details>
 
 <details>
-	<summary>2.c Intensity</summary>
+	<summary>Intensity</summary>
 
 With intensity as one of our values, we are setting a high standard, a commitment to determinedly pursue our goals, persevere and demonstrate resilience in our drive to achieve our goals. Intensity at IBRI can be thought of as a level of focus or energy applied to tasks or to complete a goal. It is about finding efficient and sustainable ways to get work done and doing it with excellence in mind while consistently striving to improve at scale.
 
@@ -68,7 +70,7 @@ We understand that sustained intensity requires periodic recharging and we suppo
 
 
 <details>
-	<summary>2.d Excellence</summary>
+	<summary>Excellence</summary>
 
 Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the company and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!
 
@@ -83,31 +85,31 @@ Each teammate is expected to embody a commercial/business awareness and apply a 
 ## 3. Community Guidelines
 
 <details>
-	<summary>3.d Respect</summary>
+	<summary>Respect</summary>
 </details>
 
 <details>
-	<summary>3.d Collaboration</summary>
+	<summary>Collaboration</summary>
 </details>
 
 <details>
-	<summary>3.d Advertisment</summary>
+	<summary>Advertisment</summary>
 </details>
 
 ## 4. Acknowledgements
 
-#### 4.a About the Founder:
+#### About the Founder:
 Madam Ella is a Dev Researcher with years of experience working on everything from web development to robotics research. Across Africa and abroad, she's mentored students in robotics fundamentals, programming, sensor technology, and problem-solving, while also helping schools and organizations design stronger STEM programs.
 You can reach her via:
 * Email: [madam.ella@intobinary.org](mailto:madam.ella@intobinary.org)
 * LinkedIn: [https://www.linkedin.com/in/MadamEllaMalala](https://www.linkedin.com/in/MadamEllaMalala)
 
-#### 4.b Meet the Community:
+#### Meet the Community:
 
 <details>
 	<summary>Eric Migwi</summary>
 </details>
 
 <details>
-	<summary>Jonathan Izuchukwu </summary>
+	<summary>Jonathan Izuchukwu</summary>
 </details>

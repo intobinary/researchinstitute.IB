@@ -82,9 +82,9 @@ Our Values at IBRI are being operationalised across the entire institute.
 
 <pre>
 	Anti Behavior of EXCELLENCE:
-	- Settling for "good enough", consistently apply a growth mindset and iteration in order to achieve our goals. 
-	- Assuming you are always correct and are the only one who has the best ideas. That may be true in some scenarios but we thrive off of open and continuous feedback, inclusivity of terrible ideas to get to the best idea and being open to new perspectives
-	- One team may have a strong vision or set of goals to accomplish but institute vision, mission and goals should always take precedence
+	- Settling for "good enough"; we must consistently apply a growth mindset and iteration in order to achieve our goals. 
+	- Assuming you are always right or are the only one to have the best idea. That may be true in some scenarios but we thrive off of open and continuous feedback and inclusivity. Be open to welcoming terrible ideas to get to the best idea. And be open to new perspectives
+	- One team may have a strong vision or set of goals to accomplish but the institute's vision, mission and goals should always take precedence
 </pre>
 </details>
 

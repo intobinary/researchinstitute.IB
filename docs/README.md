@@ -26,9 +26,9 @@ Our Values at IBRI are being operationalised across the entire institute.
 	
 <p>We really want IBRI teams to care about every action they take at work and in their communication and decision-making. That means assuming good intent in all situations, helping out others, and avoiding the temptation to fall into a culture of blame. Care should be taken in how we work with customers, how we show empathy to challenges they are facing and how our product is built and functions. Demonstrating care goes hand in hand with ownership which takes on a sense of personal responsibility, accountability and commitment to the success of Into Binary Research Institute.</p>
 
-<p>Everyone is expected to take ownership of work outcomes; that includes caring for and owning outcomes for our customers, new product features, internal projects and our goals. We trust you to do what is in the best interest of the company. And with that we don’t need to micro-manage or have numerous calls or messages to ask for updates on deliverables; every IBRI team member is expected to fully own their work and to reach out if they need support, guidance or identify a blocker.</p>
+<p>Everyone is expected to take ownership of work outcomes; that includes caring for and owning outcomes for our customers, new product features, internal projects and our goals. We trust you to do what is in the best interest of the institute. And with that we don’t need to micro-manage or have numerous calls or messages to ask for updates on deliverables; every IBRI team member is expected to fully own their work and to reach out if they need support, guidance or identify a blocker.</p>
 		
-<p>Also if you notice an area of improvement or opportunity, care enough to try to implement the upgraded alternative -- share it with others and go one step further, when possible, in suggesting how to approach the work. We want to build a company where everyone wants to be involved, to make things better, to care and support each other. When we genuinely demonstrate that we care for others and the work throughout our day-to-day and create that nurturing environment, everyone will thrive.</p>
+<p>Also if you notice an area of improvement or opportunity, care enough to try to implement the upgraded alternative -- share it with others and go one step further, when possible, in suggesting how to approach the work. We want to build a institute where everyone wants to be involved, to make things better, to care and support each other. When we genuinely demonstrate that we care for others and the work throughout our day-to-day and create that nurturing environment, everyone will thrive.</p>
 	
 <pre>
 	Anti Behavior of CARE:
@@ -45,14 +45,14 @@ Our Values at IBRI are being operationalised across the entire institute.
 <details>
 	<summary>Innovation</summary>
 
-<p>IBRI is now transforming the coding school into a full digital research lab, making us a multi-service company in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.</p>
+<p>IBRI is now transforming the coding school into a full digital research lab, making us a multi-service institute in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.</p>
 
 <p>All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other Remoters to do so.</p>
 
 <pre>
 	Anti Behavior of INNOVATION:
 	- Not communicating or cascading communications to the organisation so the organisation is not aware of changes
-	- Changing company, business or organisational goals with no update or a complete pivot in company strategy with no rationale or insights shared
+	- Changing institute, business or organisational goals with no update or a complete pivot in institute strategy with no rationale or insights shared
 </pre>
 </details>
 
@@ -61,7 +61,7 @@ Our Values at IBRI are being operationalised across the entire institute.
 
 <p>With intensity as one of our values, we are setting a high standard, a commitment to determinedly pursue our goals, persevere and demonstrate resilience in our drive to achieve our goals. Intensity at IBRI can be thought of as a level of focus or energy applied to tasks or to complete a goal. It is about finding efficient and sustainable ways to get work done and doing it with excellence in mind while consistently striving to improve at scale.</p>
 
-<p>For our company to succeed, we will not be complacent, we will do all we can to build our customer base and continue to grow both our customers and our products exponentially.</p>
+<p>For our institute to succeed, we will not be complacent, we will do all we can to build our customer base and continue to grow both our customers and our products exponentially.</p>
 
 <p>We understand that sustained intensity requires periodic recharging and we support that. Taking care of our well-being and maintaining a healthy work-life balance integration is one outcome of building sustainable efficient workflows.</p>
 
@@ -76,7 +76,7 @@ Our Values at IBRI are being operationalised across the entire institute.
 <details>
 	<summary>Excellence</summary>
 
-<p>Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the company and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!</p>
+<p>Excellence extends to everything we do. The way we communicate, the things we build, the code we write, and the way we treat our people. We want to delight our customers at every step, no matter what happens. We are to be obsessed with their happiness and success, and even surprise them (in a good way) when possible. We set high standards and push the boundaries to achieve our mission. We want to be excellent across the institute and we don’t view anyone as too junior to have a great idea or opinion -- together we can achieve great things!</p>
 
 <p>Each teammate is expected to embody a commercial/business awareness and apply a critical/holistic mindset to situations, rather than just focusing on your area of expertise or role.</p>
 
@@ -84,7 +84,7 @@ Our Values at IBRI are being operationalised across the entire institute.
 	Anti Behavior of EXCELLENCE:
 	- Settling for "good enough", consistently apply a growth mindset and iteration in order to achieve our goals. 
 	- Assuming you are always correct and are the only one who has the best ideas. That may be true in some scenarios but we thrive off of open and continuous feedback, inclusivity of terrible ideas to get to the best idea and being open to new perspectives
-	- One team may have a strong vision or set of goals to accomplish but company vision, mission and goals should always take precedence
+	- One team may have a strong vision or set of goals to accomplish but institute vision, mission and goals should always take precedence
 </pre>
 </details>
 

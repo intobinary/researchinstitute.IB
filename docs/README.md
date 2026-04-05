@@ -32,13 +32,13 @@ Also if you notice an area of improvement or opportunity, care enough to try to 
 	
 <pre>
 	Anti Behavior of CARE:
-		- Not assuming good intention in something a IBRI team mate does
-		- Public ridicule
-		- Ignoring a customer’s plight or not engaging enough to learn more to help resolve the situation -- not owning a solution or passing it off without due care/regard for the customer
-		- Not giving feedback when you see or engage in something that you feel could be done better. Sharing the feedback and supporting the evolution is caring. How you deliver the message is caring
-		- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
-		- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
-		- Not delivering feedback with timeliness, intentionality and emotional intelligence.
+	- Not assuming good intention in something a IBRI team mate does
+	- Public ridicule
+	- Ignoring a customer’s plight or not engaging enough to learn more to help resolve the situation -- not owning a solution or passing it off without due care/regard for the customer
+	- Not giving feedback when you see or engage in something that you feel could be done better. Sharing the feedback and supporting the evolution is caring. How you deliver the message is caring
+	- Not handling your working relationships with fellow IBRI team mates, with care. This means treating them in a manner that is unkind, uncaring, or with a general disregard for their efforts, time, or contributions
+	- Not being open to receive and/or action feedback from peers, managers, or other IBRI team mates.
+	- Not delivering feedback with timeliness, intentionality and emotional intelligence.
 </pre>
 </details>
 

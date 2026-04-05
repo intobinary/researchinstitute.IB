@@ -45,9 +45,9 @@ Our Values at IBRI are being operationalised across the entire institute.
 <details>
 	<summary>Innovation</summary>
 
-<p>IBRI is now transforming the coding school into a full digital research lab, making us a multi-service institute in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.</p>
+<p>IBRI is now transforming the coding school into a full digital research laboratory, making us a multi-service institute in a competitive environment. IBRI is committed to doing it better. We will take the initiative, lead from the front, push the boundaries and take risks in what we build. Innovation means we are constantly evolving as an organization; with such evolution change will happen and it will happen often. We cannot be complacent, we need be innovative and agile in approaching our goals to grow both our customers and our products exponentially.</p>
 
-<p>All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other Remoters to do so.</p>
+<p>All processes should be documented and available for everyone at IBRI, or only the relevant teams if sensitive. Information and answers to questions should be documented. These practices avoid only one individual knowing how to complete a task or find an answer and instead enables other teammates to do so.</p>
 
 <pre>
 	Anti Behavior of INNOVATION:

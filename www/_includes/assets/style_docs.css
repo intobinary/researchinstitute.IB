@@ -33,6 +33,9 @@ html { background-color: #eee; }
 		border-width: 0 0 0 .18em; border-style: solid;
 	}
 	
+	details { margin-bottom: 1em; }
+		details:last-child { }
+	
 	pre {
 		white-space: pre-wrap;
 		padding: 1.8em;

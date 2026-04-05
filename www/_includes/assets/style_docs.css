@@ -1,7 +1,8 @@
 /*** COLORS ***/
-pre { background-color: green; }
+pre {// background-color: green; }
 blockquote { border-color: green; }
-blockquote { color: green; }
+blockquote,
+pre { color: green; }
 
 html { background-color: #eee; }
 /*** END COLORS ***/
@@ -30,6 +31,11 @@ html { background-color: #eee; }
 	blockquote {
 		padding-left: 1.8em;
 		border-width: 0 0 0 .18em; border-style: solid;
+	}
+	
+	pre {
+		white-space: pre-wrap;
+		padding: 1.8em;
 	}
 /*** END COMPONENTS ***/
 

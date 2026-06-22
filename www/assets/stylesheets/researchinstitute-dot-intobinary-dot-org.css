@@ -379,6 +379,6 @@ h4 { font-size: 1.8em; }
 /*** CSS-HACKS ***/
 .about-highlights figure.is-lego img,
 .stage h2 span,
-.stage-researchers-nav label { transform: rotate(44deg); }
+.stage-researchers-nav label {// transform: rotate(44deg); border-radius: 50%; }
 /*** END CSS-HACKS ***/
 

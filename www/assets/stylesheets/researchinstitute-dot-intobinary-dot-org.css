@@ -64,6 +64,9 @@ h4 { font-size: 1.8em; }
 				background-size: auto 100%;
 }
 
+.u-button:after { background-image: url('../../assets/images/icon_hand.png'); }
+.u-botton:after { //background-size: 44% !important; }
+
 .d-background { background-image: url("/assets/images/background-1.png"); }
 /* .d-background { background-image: url("/assets/images/background-2.png"); background-position: center -4em; } */
 /*** END MEDIA ***/
@@ -75,11 +78,13 @@ h4 { font-size: 1.8em; }
 								padding: .4em .7em;
 				}
 				.u-button:after {
-								content: "©";
+								content: "";
 								position: absolute; bottom: -.1em; right: .1em;
 								width: 1.8em; height: 1.8em;
 								
 								display: flex; align-items: center; justify-content: center;
+								opacity: .4;
+//								background-color: green;
 				}
 								/*** CSS-HACKS ***/
 								.stage .u-button { min-width: 50%; }
@@ -142,6 +147,11 @@ h4 { font-size: 1.8em; }
 
 					/*** .header ***/
 				.header_dock { display: flex; }
+				.header_dock { flex-wrap: wrap-reverse !important; }
+				.header_dock { justify-content: flex-end; }
+
+				.header hgroup img { width: auto; }
+				.header hgroup h1 { position: relative; right: .1em; top: -.1em; }
 
 				/*** .researchers ***/
 				.researchers { display: flex; }
@@ -220,6 +230,7 @@ h4 { font-size: 1.8em; }
 				/*** FONTS ***/
 				html { font-size: 14px; }
 				.stage h2 { font-size: 3em; }
+				.header h1 { font-size: 1.4em; }
 				
 				/*** COMMONS ***/
 								/*** CSS-HACKS: COMMONS ***/
@@ -238,6 +249,10 @@ h4 { font-size: 1.8em; }
 								.community form div { width: 40%; }
 								.community form div:nth-child(3) { width: 100%; }
 				
+				/*** COMPONENTS: .header ***/
+				.header hgroup img { height: 1.8em; }
+								/*** VIEWPORT: .header ***/
+				
 				/*** COMPONENTS: .researchers ***/
 								/*** VIEWPORT: .researchers ***/
 								.researchers figure { display: flex; flex-direction: column; }
@@ -255,6 +270,7 @@ h4 { font-size: 1.8em; }
 				/*** FONTS ***/
 				html { font-size: 18px; }
 				.stage h2 { font-size: 4em; }
+				.header h1 { font-size: 1.8em; }
 				
 				.students hgroup h4 {// text-align: right; }
 				
@@ -281,6 +297,9 @@ h4 { font-size: 1.8em; }
 								.commumity form div { //width: 18%; }
 								.community form div:nth-child(3) { min-width: 50%; }
 				
+				/*** COMPONENTS: .header ***/
+				.header hgroup img { height: 2.5em; }
+								/*** VIEWPORT: .header ***/
 				
 				/*** COMPONENTS: .researchers ***/
 								/*** VIEWPORT: .researchers ***/
@@ -343,7 +362,7 @@ h4 { font-size: 1.8em; }
 	}
 	
 				.CSSbold { font-weight: bold; }
-				.CSSnoWrap { }
+				.CSSnoWrap { white-space: nowrap; }
 				.CSSspacer { flex: 1; }
 /*** END TOOLS ***/
 

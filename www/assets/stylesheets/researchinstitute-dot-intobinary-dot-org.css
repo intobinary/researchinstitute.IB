@@ -174,7 +174,6 @@ p a,
 
 				.researchers figure {
 								position: relative;
-								aspect-ratio: 3/4;
 				}
 				.researchers figure a {
 								position: absolute; right: .1em; bottom: -.1em;
@@ -308,6 +307,8 @@ p a,
 								.researchers { flex-wrap: wrap; gap: 1em; }
 								.researchers figure { flex: 0 48% }
 				
+								.researchers figure { aspect-ratio: 3/4; }
+				
 				/*** COMPONENTS: .stage ***/
 								/*** VIEWPORT: .stage ***/
 								.stage_dock { align-items: center; justify-content: center; }
@@ -425,7 +426,7 @@ p a,
 	
 	/*** .CSSmidwrap ***/
 	.CSSmidWrap {
-					max-width: 70em;
+					max-width: 84em;
 					display: block; margin: auto;
 	}
 	

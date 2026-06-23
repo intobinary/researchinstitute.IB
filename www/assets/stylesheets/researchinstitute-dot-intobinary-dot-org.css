@@ -425,7 +425,7 @@ p a,
 	
 	/*** .CSSmidwrap ***/
 	.CSSmidwrap {
-		max-width: 50em;
+		max-width: 40em !important;
 		display: block;
 		margin: auto;
 	}

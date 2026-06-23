@@ -25,7 +25,6 @@ h4 span { color: rgb(4, 234, 96); }
 
 div.is-highlight span:not(.CSSspacer),
 .about-moodle figure,
-.researchers figure,
 .d-bgWhite { background-color: white; }
 .d-bgGradient.vToBottom { background: linear-gradient(to bottom, white, #eee); }
 .d-bgGradient.vToTop { background: linear-gradient(to top, white, #eee); }
@@ -36,7 +35,6 @@ html, body,
 .stage-researchers-card nav label { background-color: #eee; }
 .u-button.vWhite { background-color: #eee !important; }
 
-.stage-researchers-card figure img,
 .stage-researchers-card nav a,
 .stage-researchers-nav label { background-color: #AAA; }
 
@@ -44,17 +42,22 @@ html, body,
 /*** END COLORS ***/
 
 /*** FONTS ***/
-@font-face { font-family: "OCR A"; src: url("https://researchinstitute.intobinary.org/assets/fonts/OCRAEXT.ttf"); }
+@font-face { font-family: "OCR A"; src: url("../../assets/fonts/OCRAEXT.ttf"); }
 
-* { font-family: "OCR A"; }
+* { font-family: "OCR A"; letter-spacing: -.1em; }
 
 { font-family: "Impact"; word-spacing: .15em; }
 { font-family: "Bauhaus"; line-height: 1.15em; word-spacing: initial !important; }
 
 h4 { font-size: 1.8em; }
 
-.header h1 { font-weight: bold; }
+h2 label, h4 span,
+p a,
+.IBRIlogo h1 { font-weight: bold; }
 .stage-nav { text-align: center; }
+.u-button:hover,
+.u-button:active,
+.u-button:focus { text-decoration: underline; }
 /*** END FONTS ***/
 
 /*** MEDIA ***/
@@ -66,6 +69,11 @@ h4 { font-size: 1.8em; }
 
 .u-button:after { background-image: url('../../assets/images/icon_hand.png'); }
 .u-botton:after { //background-size: 44% !important; }
+
+/*.is-highlight img,
+.researchers img, */
+.stage-researchers-card figure img,
+.students aside figure { filter: grayscale(100%); }
 
 .d-background { background-image: url("/assets/images/background-1.png"); }
 /* .d-background { background-image: url("/assets/images/background-2.png"); background-position: center -4em; } */
@@ -83,7 +91,6 @@ h4 { font-size: 1.8em; }
 								width: 1.8em; height: 1.8em;
 								
 								display: flex; align-items: center; justify-content: center;
-								opacity: .4;
 //								background-color: green;
 				}
 								/*** CSS-HACKS ***/
@@ -129,7 +136,6 @@ h4 { font-size: 1.8em; }
 				.clients { text-align: center; }
 				.clients img {
 								width: auto; height: 4em;
-								margin: .1em 1.8em;
 				}
 
 				/*** .community ***/
@@ -140,23 +146,43 @@ h4 { font-size: 1.8em; }
 				.community form span { display: block; }
 
 				/*** .footer ***/
+				.footer hgroup {
+//								position: relative;
+//								margin-bottom: 1.8em;
+								float: right;
+				}
 				.footer nav a { 
 								display: inline-block;
 								margin: .4em;
 				}
+				.footer p { padding-top: 1.8em; }
 
 					/*** .header ***/
 				.header_dock { display: flex; }
 				.header_dock { flex-wrap: wrap-reverse !important; }
 				.header_dock { justify-content: flex-end; }
 
-				.header hgroup img { width: auto; }
-				.header hgroup h1 { position: relative; right: .1em; top: -.1em; }
+				.IBRIlogo img { width: auto; }
+				.IBRIlogo h1 { position: relative; right: .1em; top: -.1em; }
 
 				/*** .researchers ***/
-				.researchers { display: flex; }
+				.researchers,
+				.researchers figure { display: flex; }
+				.researchers figure { flex-direction: column; }
 				.researchers figure { flex: 1; }
 				.researchers { //gap: 1em; }
+
+				.researchers figure {
+								position: relative;
+								aspect-ratio: 3/4;
+				}
+				.researchers figure a {
+								position: absolute; right: .1em; bottom: -.1em;
+				}
+				.researchers figure img {
+								aspect-ratio: 8/4;
+								background-position: left center;
+				}
 
 				/*
 				.researchers figure { margin-left: 1em; }
@@ -172,6 +198,7 @@ h4 { font-size: 1.8em; }
 				.stage-researchers-card { flex-direction: column; }
 
 				.stage { position: relative; }
+				.stage hgroup h2 { margin-bottom: .4em; }
 				.stage h2 span {
 								width: .8em; height: .8em;
 								display: inline-block;
@@ -188,10 +215,11 @@ h4 { font-size: 1.8em; }
 								aspect-ratio: 7/4;
 				}
 				.stage-researchers-card figure img {
-								width: auto; height: 1em;
-								background-color: green;
+								width: auto; height: 1.8em;
 				}
-				.stage-researchers-card span { display: block;  }
+				.stage-researchers-card hgroup { width: 70%; }
+				.stage-researchers-card hgroup a { margin-top: 1em; }
+				.stage-researchers-card hgroup span { display: block;  }
 				.stage-researchers-card nav a {
 								position: absolute; top: .1em; right: .1em;
 								display: block;
@@ -216,13 +244,24 @@ h4 { font-size: 1.8em; }
 				.students aside figure {
 								display: block;
 								width: 100%; min-height: 4em;
-//								background-color: green;
 				}
+								/*** CSS-HACKS ***/
+								.students aside figure {
+												background-size: 115% auto;
+												background-position: 70% 35%;
+												
+//												background-color: green;
+								}
 /*** END COMPONENTS ***/
 
 /*** INTERACTIVITY ***/
 .stage-researchers-card { display: none; }
 #rdb4researcher1:checked ~ main .stage-researchers-card:nth-child(1) { display: flex; }
+
+.u-button:after { opacity: .4; }
+.u-button:hover:after,
+.u-button:active:after,
+.u-button:focus:after { opacity: .7; }
 /*** END INTERACTIVITY ***/
 
 /*** MEDIA-QUERIES ***/
@@ -243,14 +282,24 @@ h4 { font-size: 1.8em; }
 								.about > div {// margin-bottom: 1.24em; }
 								.about-highlights { padding-top: 1em; gap: 1em; }
 				
+				/*** COMPONENTS: .clients ***/
+				.clients img { margin: .4em 1em; }
+				
 				/*** COMPONENTS: .community ***/
 								/*** VIEWPORT: .community ***/
-								.commumity form div { display: inline-block !important; }
-								.community form div { width: 40%; }
-								.community form div:nth-child(3) { width: 100%; }
+								.community form div { display: inline-block; }
+								.community form div { width: 50%; }
+								.community form div:nth-child(1) { padding-right: 1em; }
+								.community form div:nth-child(3) { width: 100%; margin-top: 1em; }
+				
+				/*** COMPONENTS: .footer ***/
+				/*
+				.footer hgroup { width: 34%; left: 64%; }
+				*/
+								/*** VIEWPORT: .footer ***/
 				
 				/*** COMPONENTS: .header ***/
-				.header hgroup img { height: 1.8em; }
+				.IBRIlogo img { height: 1.8em; }
 								/*** VIEWPORT: .header ***/
 				
 				/*** COMPONENTS: .researchers ***/
@@ -261,10 +310,18 @@ h4 { font-size: 1.8em; }
 				
 				/*** COMPONENTS: .stage ***/
 								/*** VIEWPORT: .stage ***/
+								.stage_dock { align-items: center; justify-content: center; }
+				
 								.stage-nav { margin: 1em .1em; }
 								.stage-researchers { margin: 1.8em 0; }
 				
 				/*** COMPONENTS: .students ***/
+								/*** VIEWPORT: .students ***/
+								.students aside figure {
+												aspect-ratio: 8/4;
+												background-position: 70% 40%;
+								}
+								.students aside p { padding-top: 1.8em; } 
 }
 @media all and (min-width: 40em) {
 				/*** FONTS ***/
@@ -286,19 +343,28 @@ h4 { font-size: 1.8em; }
 				
 								.about-highlights div { margin-left: 1em; }
 				
+				/*** COMPONENTS: .clients ***/
+				.clients img { margin: .4em 1.8em; }
+				
 				/*** COMPONENTS: .community ***/
 								/*** VIEWPORT: .community ***/
 								.community form fieldset { display: flex; }
 				
 								.community .u-button { min-width: 25%; }
 				
-								.community hgroup { width: 66.666%; }
+								.community hgroup { //width: 66.666%; }
 				
 								.commumity form div { //width: 18%; }
 								.community form div:nth-child(3) { min-width: 50%; }
 				
+				/*** COMPONENTS: .footer ***/
+				/*
+				.footer hgroup { width: 25%; left: 75%; }
+				*/
+								/*** VIEWPORT: .footer ***/
+				
 				/*** COMPONENTS: .header ***/
-				.header hgroup img { height: 2.5em; }
+				.IBRIlogo img { height: 2.5em; }
 								/*** VIEWPORT: .header ***/
 				
 				/*** COMPONENTS: .researchers ***/
@@ -313,6 +379,7 @@ h4 { font-size: 1.8em; }
 								.stage-researchers-card { min-height: 12em; }
 								.stage_dock > .CSSspacer { //min-width: 18%; }
 				
+								.stage_dock > hgroup a { position: relative; left: 60%; }
 								.stage-nav { position: absolute; right: .1em; bottom: -1.8em; }
 				
 				/*** COMPONENTS: .students ***/
@@ -344,6 +411,8 @@ h4 { font-size: 1.8em; }
 		width: 100%; height: 100%;
 	}
 
+.researchers .d-bgGradient,
+.students .d-bgGradient { border-bottom: .4em dashed white; }
 .d-bgWhite { display: block; }
 /*** END DECORATION ***/
 
@@ -362,6 +431,7 @@ h4 { font-size: 1.8em; }
 	}
 	
 				.CSSbold { font-weight: bold; }
+				.CSSinline { display: inline !important; }
 				.CSSnoWrap { white-space: nowrap; }
 				.CSSspacer { flex: 1; }
 /*** END TOOLS ***/

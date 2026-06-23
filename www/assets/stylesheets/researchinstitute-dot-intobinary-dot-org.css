@@ -71,8 +71,8 @@ p a,
 .u-botton:after { //background-size: 44% !important; }
 
 /*.is-highlight img,
-.researchers img, */
-.stage-researchers-card figure img,
+.researchers img,
+.stage-researchers-card figure img, */
 .students aside figure { filter: grayscale(100%); }
 
 .d-background { background-image: url("/assets/images/background-1.png"); }
@@ -215,7 +215,7 @@ p a,
 								aspect-ratio: 7/4;
 				}
 				.stage-researchers-card figure img {
-								width: auto; height: 1.8em;
+								width: auto; height: 3em;
 				}
 				.stage-researchers-card hgroup { width: 70%; }
 				.stage-researchers-card hgroup a { margin-top: 1em; }

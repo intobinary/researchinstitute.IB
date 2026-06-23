@@ -72,7 +72,7 @@ p a,
 
 /*.is-highlight img,
 .researchers img,
-.stage-researchers-card figure img, */
+.stage-researchers-card figure img,*/
 .students aside figure { filter: grayscale(100%); }
 
 .d-background { background-image: url("/assets/images/background-1.png"); }
@@ -158,7 +158,7 @@ p a,
 				.footer p { padding-top: 1.8em; }
 
 					/*** .header ***/
-				.header_dock { display: flex; }
+				.header_dock { display: flex !important; }
 				.header_dock { flex-wrap: wrap-reverse !important; }
 				.header_dock { justify-content: flex-end; }
 
@@ -166,8 +166,8 @@ p a,
 				.IBRIlogo h1 { position: relative; right: .1em; top: -.1em; }
 
 				/*** .researchers ***/
-				.researchers,
 				.researchers figure { display: flex; }
+.researchers { display: flex !important; }
 				.researchers figure { flex-direction: column; }
 				.researchers figure { flex: 1; }
 				.researchers { //gap: 1em; }
@@ -265,7 +265,7 @@ p a,
 /*** END INTERACTIVITY ***/
 
 /*** MEDIA-QUERIES ***/
-@media all and (max-width: 40em) {
+@media all and (max-width: 44em) {
 				/*** FONTS ***/
 				html { font-size: 14px; }
 				.stage h2 { font-size: 3em; }
@@ -323,7 +323,7 @@ p a,
 								}
 								.students aside p { padding-top: 1.8em; } 
 }
-@media all and (min-width: 40em) {
+@media all and (min-width: 44em) {
 				/*** FONTS ***/
 				html { font-size: 18px; }
 				.stage h2 { font-size: 4em; }
@@ -339,7 +339,7 @@ p a,
 				
 				/*** COMPONENTS: .about ***/
 								/*** VIEWPORT: .about ***/
-								.about { display: flex; }
+								.about { display: flex !important; }
 				
 								.about-highlights div { margin-left: 1em; }
 				
@@ -373,7 +373,7 @@ p a,
 								.researchers figure:nth-child(1) { margin-left: 0; }
 
 				/*** COMPONENTS: .stage ***/
-				.stage_dock { display: flex; }
+				.stage_dock { display: flex !important; }
 								/*** VIEWPORT: .stage ***/
 								.stage-researchers {// min-width: 40%; }
 								.stage-researchers-card { min-height: 12em; }
@@ -384,8 +384,8 @@ p a,
 				
 				/*** COMPONENTS: .students ***/
 								/*** VIEWPORT: .students ***/
-								.students,
 								.students aside { display: flex; }
+				.students { display: flex !important; }
 								.students aside { flex-direction: column; }
 								.students aside,
 								.students aside figure { flex: 1; }
@@ -424,10 +424,9 @@ p a,
 	}
 	
 	/*** .CSSmidwrap ***/
-	.CSSmidwrap {
-		max-width: 40em !important;
-		display: block;
-		margin: auto;
+	.CSSmidWrap {
+					max-width: 70em;
+					display: block; margin: auto;
 	}
 	
 				.CSSbold { font-weight: bold; }
